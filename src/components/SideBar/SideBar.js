@@ -1,7 +1,7 @@
-import React from 'react';
-import '../../sass/sidebar.scss';
-import facebook from '../../img/facebook.svg';
-import github from '../../img/github.svg';
+import React from 'react'
+import '../../sass/sidebar.scss'
+import facebook from '../../img/facebook.svg'
+import github from '../../img/github.svg'
 import linkedin from '../../img/linkedin.svg'
 
 const SideBar = () => {
