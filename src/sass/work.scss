@@ -1,0 +1,46 @@
+.work-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin-top: 3rem;
+
+  .workItem {
+    width: 80%;
+    height: 13rem;
+    margin: 5rem auto;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+
+    &__title {
+
+      span:first-of-type {
+        font-size: 6rem;
+        text-transform: uppercase;
+        letter-spacing: -2px;
+      }
+
+      span:last-of-type {
+        font-size: 1.5rem;
+        vertical-align: top;
+      }
+    }
+
+    &__type {
+
+      span {
+        display: block;
+      }
+
+      span:first-of-type {
+        font-size: 1.8rem;
+        margin-bottom: 1rem;
+      }
+
+      span:last-of-type {
+        font-size: 1.4rem;
+        font-weight: 400;
+      }
+    }
+  }
+}
