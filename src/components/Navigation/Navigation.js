@@ -2,12 +2,30 @@ import React from 'react'
 import '../../sass/navigation.scss'
 
 const Navigation = () => {
-  return(
+  return (
     <nav className="navigation-container">
       <ul className="navigation">
-        <li className="navigation__item"><a href="#" className="navigation__link">Work</a></li>
-        <li className="navigation__item"><a href="#" className="navigation__link">Journey</a></li>
-        <li className="navigation__item"><a href="#" className="navigation__link">About</a></li>
+        <li className="navigation__item">
+          <a href="#" className="navigation__link">
+            <span>01</span>
+            Work
+            <span>For</span>
+          </a>
+        </li>
+        <li className="navigation__item">
+          <a href="#" className="navigation__link">
+            <span>02</span>
+            Journey
+            <span>With</span>
+          </a>
+        </li>
+        <li className="navigation__item">
+          <a href="#" className="navigation__link">
+            <span>03</span>
+            About
+            <span>Who</span>
+          </a>
+        </li>
       </ul>
     </nav>
   );

@@ -11,7 +11,7 @@ class App extends Component {
       <div className="App">
         <SideBar />
         <Navigation />
-        <Journey />
+        <About />
       </div>
     );
   }
