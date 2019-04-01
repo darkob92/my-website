@@ -12,21 +12,30 @@
     transform: scaleY(1.5);
   }
 
-  .content-box {
+  .about-me {
+
     h4 {
       font-size: 3rem;
       font-weight: 400;
     }
 
-    div {
+    &__text {
       display: flex;
       justify-content: space-between;
       width: 80%;
+      margin-bottom: 3rem;
 
       p {
         font-size: 1.6rem;
         width: 45%;
       }
+    }
+
+    &__img {
+      width: 80%;
+      height: 50rem;
+      background: #ccc;
+      margin: 0 auto;
     }
   }
 }
