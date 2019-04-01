@@ -3,7 +3,7 @@ import './sass/main.scss'
 import SideBar from './components/SideBar/SideBar'
 import Navigation from './components/Navigation/Navigation'
 import About from './components/MainSection/About'
-import Work from './components/MainSection/Work'
+import Journey from './components/MainSection/Journey'
 
 class App extends Component {
   render() {
@@ -11,7 +11,7 @@ class App extends Component {
       <div className="App">
         <SideBar />
         <Navigation />
-        <Work />
+        <Journey />
       </div>
     );
   }

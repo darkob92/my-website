@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../sass/work.scss'
+import '../../sass/journey.scss'
 
 const Work = () => {
   return (
