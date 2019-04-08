@@ -1,6 +1,6 @@
-@import url(https://fonts.googleapis.com/css?family=Oswald:400,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700,900);
 
-$default-font: 'Oswald', sans-serif;
+$default-font: 'Roboto', sans-serif;
 $standard-grey: #A5A5A5;
 
 :root {
@@ -11,12 +11,13 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: $default-font;
-  color: #fff;
+  color: #000;
+  scroll-behavior: smooth;
 }
 
 .App {
   display: flex;
   width: 100%;
   height: 100vh;
-  background: #000;
+  background: #fefefe;
 }

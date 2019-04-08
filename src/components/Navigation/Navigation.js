@@ -8,22 +8,22 @@ const Navigation = () => {
         <li className="navigation__item">
           <a href="#" className="navigation__link">
             <span>01</span>
-            Work
-            <span>For</span>
-          </a>
-        </li>
-        <li className="navigation__item">
-          <a href="#" className="navigation__link">
-            <span>02</span>
             Journey
             <span>With</span>
           </a>
         </li>
         <li className="navigation__item">
           <a href="#" className="navigation__link">
-            <span>03</span>
+            <span>02</span>
             About
             <span>Who</span>
+          </a>
+        </li>
+        <li className="navigation__item">
+          <a href="#" className="navigation__link">
+            <span>03</span>
+            Contact
+            <span>Me</span>
           </a>
         </li>
       </ul>

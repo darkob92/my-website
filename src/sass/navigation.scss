@@ -13,14 +13,14 @@
     &__item {
       width: 80%;
       margin: 5rem auto;
-      transform: scaleY(1.7);
+      transform: scaleY(1.5);
       transition: all .5s;
 
       span {
-        vertical-align: 60px;
+        vertical-align: 39px;
         margin-right: 5px;
         font-size: 1.6rem;
-        font-weight: 700;
+        font-weight: 900;
         color: #A5A5A5;
         transition: all .5s;
 
@@ -34,15 +34,15 @@
       text-decoration: none;
       color: #A5A5A5;
       text-transform: uppercase;
-      font-size: 9rem;
-      font-weight: 700;
+      font-size: 7rem;
+      font-weight: 900;
       transition: all .5s;
 
       &:hover {
-        color: #fff;
+        color: #000;
 
         span {
-          color: #fff;
+          color: #000;
 
           &:last-of-type {
             display: inline;

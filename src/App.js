@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import './sass/main.scss'
 import SideBar from './components/SideBar/SideBar'
 import Navigation from './components/Navigation/Navigation'
+import Contact from './components/MainSection/Contact'
 import About from './components/MainSection/About'
 import Journey from './components/MainSection/Journey'
 

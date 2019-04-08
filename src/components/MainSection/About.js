@@ -4,10 +4,12 @@ import '../../sass/about.scss';
 const About = () => {
   return (
     <div className="about-container">
-      <h3>I am Darko Bogovic</h3>
+      <h3>darko bogovic</h3>
 
       <div className="about-me">
-        <h4>What do you need to know about me?</h4>
+        <div className="about-me__img">
+
+        </div>
 
         <div className="about-me__text">
           <p>
@@ -18,9 +20,19 @@ const About = () => {
           <p>
             Besides my love for technology, I am big fan of GNK Dinamo Zagreb and football in general. Also, I love cooking.
           </p>
-        </div>
-        <div className="about-me__img">
-        
+          <p>
+            Technologies I am currently working with: 
+            <ul className="skills">
+              <li>html5</li>
+              <li>css3</li>
+              <li>sass</li>
+              <li>javascript</li>
+              <li>react</li>
+              <li>gsap</li>
+            </ul>
+          </p>
+          <p>Also, beside these frontend technologies, I am learning MobX, Node JS and Express JS.</p>
+          <p></p>
         </div>
       </div>
     </div>
