@@ -8,7 +8,7 @@ const About = () => {
 
       <div className="about-me">
         <div className="about-me__img">
-
+          {/* placeholder for img */}
         </div>
 
         <div className="about-me__text">
