@@ -1,0 +1,17 @@
+.start-container {
+  width: 50%;
+  height: 90vh;
+  margin: 3rem auto;
+
+  h3 {
+    font-size: 6rem;
+  }
+
+  .intro {
+    border-bottom: 1px solid rgba(165, 165, 165, 0.435);
+    
+    p {
+      font-size: 3rem;
+    }
+  }
+}
