@@ -6,21 +6,21 @@ const Navigation = () => {
     <nav className="navigation-container">
       <ul className="navigation">
         <li className="navigation__item">
-          <a href="#" className="navigation__link">
+          <a href="/journey" className="navigation__link">
             <span>01</span>
             Journey
             <span>With</span>
           </a>
         </li>
         <li className="navigation__item">
-          <a href="#" className="navigation__link">
+          <a href="/about" className="navigation__link">
             <span>02</span>
             About
             <span>Who</span>
           </a>
         </li>
         <li className="navigation__item">
-          <a href="#" className="navigation__link">
+          <a href="/contact" className="navigation__link">
             <span>03</span>
             Contact
             <span>Me</span>

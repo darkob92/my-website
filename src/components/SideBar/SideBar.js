@@ -8,10 +8,12 @@ const SideBar = () => {
   return (
     <div className="sidebar-container">
       <div className="logo-box">
-        <h1 className="logo">
-          <span>D</span>
-          <span>B</span>
-        </h1>
+        <a href="/">
+          <h1 className="logo">
+            <span>D</span>
+            <span>B</span>
+          </h1>
+        </a>
       </div>
       <div className="icons-container">
         <div className="icon-box">
