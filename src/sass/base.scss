@@ -11,13 +11,21 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: $default-font;
-  color: #000;
+  color: #fff;
   scroll-behavior: smooth;
+
+  a {
+    text-decoration: none;
+
+    &:visited {
+      text-decoration: none;
+    }
+  }
 }
 
 .App {
   display: flex;
   width: 100%;
   height: 100vh;
-  background: #fefefe;
+  background: #000;
 }

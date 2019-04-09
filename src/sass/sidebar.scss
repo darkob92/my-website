@@ -42,13 +42,19 @@
     justify-content: space-around;
 
     .icon-box {
-      margin: 1rem auto;
+      margin: 1rem auto;  
+      border: 1px solid #A5A5A5;
+      position: relative;
+      transition: all .5s ease;
+
+      &:hover {
+        background: #D03232;
+      }
 
       .icon {
         height: 2rem;
         width: 2rem;
         padding: 1rem 1.5rem;
-        border: 1px solid #A5A5A5;
       }
     }
   }

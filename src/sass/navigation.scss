@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,700);
+
 .navigation-container {
   width: 25%;
   height: 100%;
@@ -13,16 +15,17 @@
     &__item {
       width: 80%;
       margin: 5rem auto;
-      transform: scaleY(1.5);
+      transform: scaleY(1.7);
       transition: all .5s;
 
       span {
-        vertical-align: 39px;
+        vertical-align: 52px;
         margin-right: 5px;
         font-size: 1.6rem;
-        font-weight: 900;
+        font-weight: 700;
         color: #A5A5A5;
         transition: all .5s;
+        font-family: 'Oswald', sans-serif;
 
         &:last-of-type {
           display: none;
@@ -34,15 +37,16 @@
       text-decoration: none;
       color: #A5A5A5;
       text-transform: uppercase;
-      font-size: 7rem;
-      font-weight: 900;
+      font-size: 8rem;
+      font-weight: 700;
       transition: all .5s;
+      font-family: 'Oswald', sans-serif;
 
       &:hover {
-        color: #000;
+        color: #fff;
 
         span {
-          color: #000;
+          color: #fff;
 
           &:last-of-type {
             display: inline;
