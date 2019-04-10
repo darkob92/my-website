@@ -1,19 +1,20 @@
-import React from 'react'
-import '../../sass/sidebar.scss'
-import facebook from '../../img/facebook.svg'
-import github from '../../img/github.svg'
-import linkedin from '../../img/linkedin.svg'
+import React from 'react';
+import { Link } from 'react-router-dom';
+import '../../sass/sidebar.scss';
+import facebook from '../../img/facebook.svg';
+import github from '../../img/github.svg';
+import linkedin from '../../img/linkedin.svg';
 
 const SideBar = () => {
   return (
     <div className="sidebar-container">
       <div className="logo-box">
-        <a href="/">
+        <Link to="/">
           <h1 className="logo">
             <span>D</span>
             <span>B</span>
           </h1>
-        </a>
+        </Link>
       </div>
       <div className="icons-container">
         <div className="icon-box">

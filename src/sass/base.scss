@@ -11,12 +11,12 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: $default-font;
-  color: #fff;
+  color: #000;
   scroll-behavior: smooth;
 
   a {
     text-decoration: none;
-    color: #fff;
+    color: #000;
 
     &:visited {
       text-decoration: none;
@@ -28,5 +28,5 @@ body {
   display: flex;
   width: 100%;
   height: 100vh;
-  background: #000;
+  background: #fff;
 }
